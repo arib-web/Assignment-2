@@ -1,0 +1,120 @@
+/* Reponsive for mobile device */
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    .section-title h2 {
+        font-size: 35px;
+    }
+    .section-title p {
+        width: 100%;
+    }
+    .header {
+        height: 900px;
+    }
+    header .navbar {
+        flex-direction: column;
+    }
+
+    header .navbar .logo span a {
+        font-size: 30px;
+    }
+
+    .navbar .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar .menu ul li {
+        margin: 10px 0;
+    }
+
+    .navbar .menu ul li a {
+        margin: 0;
+    }
+
+    .header-banner .banner-text h2 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .header-banner .banner-text p {
+        width: 93%;
+        margin: 30px auto;
+    }
+    .feature-wrapper .feature-text h3 {
+        font-size: 35px;
+        width: 100%;
+    }
+    .feature-wrapper .feature-details h3 {
+        font-size: 35px;
+    }
+    .feature-wrapper .feature-image{
+        width: 100%;
+    }
+    .feature-wrapper .feature-text{
+        width: 100%;
+    }
+    .feature-wrapper .feature-details {
+        width: 100%;
+    }
+    .feature-wrapper .feature-image-2 {
+        width: 100%;
+    }
+    .feature-wrapper .feature-image-2 .img-overlay {
+        width: 50%;
+        left: 0;
+    }
+    .fact-section .section-title p {
+        width: 100%;
+    }
+    .fact-wrapper {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .fact-wrapper .fact-box {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+    .fact-wrapper .fact-box h3 {
+        font-size: 35px;
+    }
+    .fact-wrapper .fact-box img {
+        width: 25%;
+    }
+    .sector-wrapper {
+        margin-top: 80px;
+        flex-direction: column;
+    }
+    .sector-wrapper .sector-box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    .sector-wrapper .sector-box h3 {
+        font-size: 35px;
+    }
+    .sector-wrapper .sector-box i {
+        font-size: 70px;
+    }
+    .sponsor-wrapper {
+        flex-direction: column;
+        margin-top: 80px;
+    }
+    .sponsor-wrapper img {
+        width: 45%;
+        margin-bottom: 40px;
+    }
+
+}
