@@ -1,8 +1,9 @@
 /* Reponsive for mobile device */
 @media only screen and (max-width: 576px) {
-    section{
+    section {
         padding: 60px 0;
     }
+
     .container {
         width: 95%;
     }
@@ -17,16 +18,20 @@
         border-radius: 5px;
         font-size: 16px;
     }
+
     .section-title h2 {
         font-size: 35px;
     }
+
     .section-title p {
         width: 100%;
     }
+
     /* Common CSS End Here  */
     .header {
-        height: 900px;
+        height: 935px;
     }
+
     header .navbar {
         flex-direction: column;
     }
@@ -57,68 +62,333 @@
         width: 93%;
         margin: 30px auto;
     }
+
     .feature-wrapper .feature-text h3 {
         font-size: 35px;
         width: 100%;
     }
+
     .feature-wrapper .feature-details h3 {
         font-size: 35px;
     }
-    .feature-wrapper .feature-image{
-        width: 100%;
-    }
-    .feature-wrapper .feature-text{
-        width: 100%;
-    }
+
+    .feature-wrapper .feature-image,
+    .feature-wrapper .feature-image-2,
+    .feature-wrapper .feature-text,
     .feature-wrapper .feature-details {
         width: 100%;
     }
-    .feature-wrapper .feature-image-2 {
-        width: 100%;
-    }
+
     .feature-wrapper .feature-image-2 .img-overlay {
         width: 50%;
         left: 0;
     }
+
     .fact-section .section-title p {
         width: 100%;
     }
+
     .fact-wrapper {
         margin-top: 50px;
         flex-direction: column;
     }
+
     .fact-wrapper .fact-box {
         width: 80%;
         margin-bottom: 20px;
     }
+
     .fact-wrapper .fact-box h3 {
         font-size: 35px;
     }
+
     .fact-wrapper .fact-box img {
         width: 25%;
     }
+
     .sector-wrapper {
         margin-top: 80px;
         flex-direction: column;
     }
+
     .sector-wrapper .sector-box {
         width: 100%;
         text-align: center;
         margin-bottom: 35px;
     }
+
     .sector-wrapper .sector-box h3 {
         font-size: 35px;
     }
+
     .sector-wrapper .sector-box i {
         font-size: 70px;
     }
+
     .sponsor-wrapper {
         flex-direction: column;
         margin-top: 80px;
     }
+
     .sponsor-wrapper img {
         width: 45%;
         margin-bottom: 40px;
     }
 
+}
+
+/* Mobile Device Responsive End Here  */
+@media only screen and (min-width: 577px) and (max-width: 768px) {
+    section {
+        padding: 60px 0;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .btn {
+        padding: 10px 25px;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+    .section-title h2 {
+        font-size: 35px;
+    }
+
+    .section-title p {
+        width: 70%;
+    }
+
+    /* Common CSS End Here  */
+    .header {
+        height: 1090px;
+    }
+
+    header .navbar {
+        flex-direction: column;
+    }
+
+    header .navbar .logo span a {
+        font-size: 30px;
+    }
+
+    .navbar .menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar .menu ul li {
+        margin: 10px 0;
+    }
+
+    .navbar .menu ul li a {
+        margin: 0;
+    }
+
+    .header-banner .banner-text h2 {
+        font-size: 50px;
+    }
+
+    .feature-wrapper .feature-image,
+    .feature-wrapper .feature-image-2,
+    .feature-wrapper .feature-text,
+    .feature-wrapper .feature-details {
+        width: 100%;
+    }
+
+    .feature-wrapper .feature-image-2 .img-overlay {
+        width: 35%;
+        left: 0;
+    }
+
+    .fact-section .section-title p {
+        width: 88%;
+    }
+
+    .fact-wrapper .fact-box {
+        border: 1px solid var(--clr-primary);
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+        width: 45%;
+    }
+
+    .fact-wrapper {
+        margin-top: 70px;
+        row-gap: 30px;
+    }
+
+    .sector-wrapper .sector-box {
+        width: 49%;
+    }
+
+    .sector-wrapper .sector-box:last-child {
+        margin-top: 30px;
+    }
+
+    .sector-wrapper .sector-box h3 {
+        font-size: 28px;
+    }
+
+    .sector-wrapper .sector-box p {
+        margin-bottom: 11px;
+        text-align: justify;
+        width: 90%;
+    }
+
+    .sector-wrapper .sector-box .box-details span {
+        margin-right: 5px;
+        margin-bottom: 10px;
+    }
+    .sponsor-wrapper {
+        justify-content: center;
+        gap: 25px;
+
+    }
+    .sponsor-wrapper img {
+        width: 15%;
+    }
+
+}
+
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    .container {
+        width: 95%;
+    }
+    
+    .header {
+        height: 1020px;
+    }
+
+    header .navbar .logo span a {
+        font-size: 35px;
+    }
+
+    .feature-section .feature-wrapper {
+        column-gap: 35px;
+    }
+
+    .feature-wrapper .feature-text h3 {
+        font-size: 40px;
+        line-height: 40px;
+        width: 95%;
+    }
+
+    .feature-wrapper .feature-text p {
+        width: 95%;
+        margin: 18px 0;
+    }
+
+    .feature-wrapper .feature-details h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .feature-wrapper .feature-details>p {
+        margin: 15px 0;
+    }
+
+    .feature-wrapper .feature-details .text-box {
+        padding: 15px 0px;
+    }
+
+    .feature-wrapper .feature-details>p {
+        line-height: 28px;
+    }
+
+    .feature-wrapper .feature-image-2 .img-overlay {
+        width: 50%;
+        left: -12px;
+    }
+
+    .fact-section .section-title p {
+        width: 79%;
+    }
+
+    .fact-wrapper {
+        row-gap: 10px;
+    }
+
+    .fact-wrapper .fact-box {
+        border: 1px solid var(--clr-primary);
+        text-align: center;
+        padding: 30px;
+        border-radius: 5px;
+        width: 32%;
+    }
+
+    .sector-wrapper .sector-box {
+        width: 49%;
+    }
+
+    .sector-wrapper .sector-box:last-child {
+        margin-top: 30px;
+    }
+
+    .sector-wrapper .sector-box h3 {
+        font-size: 37px;
+    }
+
+    .sector-wrapper .sector-box .box-details span {
+        margin-right: 10px;
+    }
+    .sponsor-wrapper {
+        gap: 25px;
+
+    }
+    .sponsor-wrapper img {
+        width: 15%;
+    }
+    .section-title p {
+        width: 67%;
+    }
+
+
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1439px) {
+    .container {
+        width: 95%;
+    }
+    .section-title p {
+        width: 67%;
+    }
+    .feature-section .feature-wrapper {
+        column-gap: 45px;
+        row-gap: 65px;
+    }
+
+    .feature-wrapper .feature-details .text-box {
+        padding: 10px 35px;
+    }
+
+    .feature-wrapper .feature-image-2 .img-overlay {
+        width: 40%;
+    }
+
+    .fact-section .section-title p {
+        width: 58%;
+    }
+
+    .fact-wrapper .fact-box {
+        padding: 22px 10px;
+        width: 23%;
+    }
+    .sector-wrapper .sector-box h3 {
+        font-size: 40px;
+    }
+    .sector-wrapper .sector-box .box-details span {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .sponsor-wrapper img {
+        width: 15%;
+    }
 }

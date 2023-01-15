@@ -232,6 +232,7 @@ header .navbar .logo span a {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .fact-wrapper .fact-box{
     border: 1px solid var(--clr-primary);
@@ -280,10 +281,14 @@ header .navbar .logo span a {
 /*===================================== 
 -----Fact Section End Here----
 ===================================== */
+/*===========================================
+-----Our Sector Section Start From Here----
+============================================*/
 .sector-wrapper{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+    flex-wrap: wrap;
 }
 .sector-wrapper .sector-box{
     width: 30%;
@@ -309,6 +314,7 @@ header .navbar .logo span a {
 .sector-wrapper .sector-box .box-details{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 .sector-wrapper .sector-box .box-details span{
     background-color: rgb(220, 220, 220);
@@ -319,6 +325,9 @@ header .navbar .logo span a {
     
 }
 /*===========================================
+-----Our Sector Section End Here----
+============================================*/
+/*===========================================
 -----Our Sponsor Section Start From Here----
 ============================================*/
 
@@ -326,6 +335,7 @@ header .navbar .logo span a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin-top: 80px;
 }
 .sponsor-wrapper img{
